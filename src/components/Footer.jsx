@@ -10,7 +10,7 @@ function Footer() {
                 <div className="container py-footer">
                     <div className="row">
                         <div className="col-lg-4 col-sm-4 col-md-4 col-sm-6 col-6">
-                            <h2 className=' ff-inter fw-900 text-79 lh-95 text-white mb-0'>G<span className=' color-yellow'>G</span></h2>
+                            <h2 className=' ff-inter fw-900 text-79 lh-95 text-white mb-0 cursor-pointer'>G<span className=' color-yellow'>G</span></h2>
                             <p className=' ff-inter fw-normal text-16 lh-25 text-white mb-0 mt-md-41'>@copyright2024</p>
                         </div>
                         <div className="col-lg-4 col-xl-2 col-sm-6 col-md-4 col-6 ">

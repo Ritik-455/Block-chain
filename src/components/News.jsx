@@ -58,15 +58,15 @@ function News() {
                 <div className="ylw-layer2">
                     <div className="container d-flex justify-content-sm-between flex-wrap">
                         <div className="d-flex gap-21 align-items-center">
-                            <img src={x} alt="x" />
+                            <img src={x} alt="x" className=' cursor-pointer' />
                             <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>twitter</p>
                         </div>
                         <div className="d-flex gap-21 align-items-center">
-                            <img src={telegram} alt="telegram" />
+                            <img src={telegram} alt="telegram"  className=' cursor-pointer'/>
                             <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>Telegram</p>
                         </div>
                         <div className="d-flex gap-21 align-items-center">
-                            <img src={dext} alt="x" />
+                            <img src={dext} alt="x" className=' cursor-pointer' />
                             <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>DEXTOOLS</p>
                         </div>
                     </div>``
