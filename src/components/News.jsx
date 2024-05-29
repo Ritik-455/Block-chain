@@ -27,20 +27,20 @@ function News() {
                                         </div>
                                     </div>
                                     <p className=' ff-inter fw-normal text-16 lh-25 text-black opacty_80 mb-0 mt-20'>{data.para}</p>
-                                    <div className="d-flex justify-content-between mt-3 pr-22">
-                                        <div className=" d-flex align-items-center">
+                                    <div className="d-flex justify-content-between mt-3 pr-22 align-items-center">
+                                        <div className=" d-flex align-items-center gap-1">
                                             <img src={data.commentimg} alt="comment" />
                                             <p className=' ff-inter fw-normal text-14 lh-17 text-black mb-0'>{data.comment}</p>
                                         </div>
-                                        <div className=" d-flex align-items-center">
+                                        <div className=" d-flex align-items-center gap-1">
                                             <img src={data.Retweetimg} alt="comment" />
                                             <p className=' ff-inter fw-normal text-14 lh-17 text-black mb-0'>{data.Retweet}</p>
                                         </div>
-                                        <div className=" d-flex align-items-center">
+                                        <div className=" d-flex align-items-center gap-1">
                                             <img src={data.like} alt="comment" />
                                             <p className=' ff-inter fw-normal text-14 lh-17 text-black mb-0'>{data.likecount}</p>
                                         </div>
-                                        <div className=" d-flex align-items-center">
+                                        <div>
                                             <img src={data.share} alt="comment" />
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@ function News() {
                 <div className="position-absolute mobile-pos d-none d-xl-block">
                     <img src={mobile} alt="mobile" />
                 </div>
-                <div className="ylw-layer">
+                <div className="ylw-layer2">
                     <div className="container d-flex justify-content-sm-between flex-wrap">
                         <div className="d-flex gap-21 align-items-center">
                             <img src={x} alt="x" />
@@ -69,7 +69,7 @@ function News() {
                             <img src={dext} alt="x" />
                             <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>DEXTOOLS</p>
                         </div>
-                    </div>
+                    </div>``
                 </div>
             </div>
         </>

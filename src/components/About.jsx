@@ -11,7 +11,7 @@ function About() {
             <div className="bg-about position-relative">
                 <div className="container py-about">
                     <div className="row">
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6 d-flex align-items-center">
                          <img src={aboutman} alt="aboutman" className=' w_100' />
                         </div>
                         <div className="col-12 col-lg-6">

@@ -19,7 +19,7 @@ function Tokenomics() {
                                     <p className=' ff-inter fw-normal text-20 lh-30 mb-0 text-white mt-12'>Token Name:<span className=' fw-bold'> &nbsp; &nbsp;  &nbsp;Let’s Hug GG</span></p>
                                     <p className=' ff-inter fw-normal text-20 lh-30 mb-0 text-white mt-12'>Token Symbol:<span className=' fw-bold'> &nbsp; &#36;LHGG</span></p>
                                     <p className=' ff-inter fw-normal text-20 lh-30 mb-0 text-white mt-12'>Total Supply:<span className=' fw-bold'> &nbsp; &nbsp;  &nbsp;1 Billion $LHGG</span></p>
-                                    <p className=' ff-inter fw-normal text-20 lh-30 mb-0 text-white mt-12'>Total Type:<span className=' fw-bold'> &nbsp; &nbsp;  &nbsp;Solana SPL Token</span></p>
+                                    <p className=' ff-inter fw-normal text-20 lh-30 mb-0 text-white mt-12'>Total Type:<span className=' fw-bold'> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;Solana SPL Token</span></p>
                                 </div>
                             </div>
                         </div>

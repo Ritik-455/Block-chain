@@ -13,7 +13,7 @@ function Header() {
                 <Navbar />
                 <div className="container py-hero position-relative z-2">
                     <h2 className=' ff-inter fw-900 text-108 lh-130 text-white mb-0'>G<span className=' color-yellow'>G</span></h2>
-                    <p className=' ff-inter fw-semibold text-20 lh-24 mb-0 text-white'>Join The <span className=' color-yellow'>Worldwide Blockchain</span> Protest Against Corrupt <span className=' d-lg-block'> Government Bodies</span></p>
+                    <p className=' ff-inter fw-semibold text-20 lh-24 mb-0 text-white opacty_80'>Join The <span className=' color-yellow'>Worldwide Blockchain</span> Protest Against Corrupt <span className=' d-lg-block'> Government Bodies</span></p>
                     <div className=" d-flex gap-4 mt-62">
                         <button className=' ylw-btn ff-inter fw-semibold text-16 lh-1936'>Buy $GrayGensler</button>
                         <Comnbtn text="How To Buy?" />
@@ -31,15 +31,15 @@ function Header() {
             <div className="ylw-layer">
                 <div className="container d-flex justify-content-sm-between flex-wrap">
                     <div className="d-flex gap-21 align-items-center">
-                        <img src={x} alt="x" />
+                        <img src={x} alt="x" className=' cursor-pointer' />
                         <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>twitter</p>
                     </div>
                     <div className="d-flex gap-21 align-items-center">
-                        <img src={telegram} alt="telegram" />
+                        <img src={telegram} alt="telegram" className=' cursor-pointer' />
                         <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>Telegram</p>
                     </div>
                     <div className="d-flex gap-21 align-items-center">
-                        <img src={dext} alt="x" />
+                        <img src={dext} alt="x" className=' cursor-pointer' />
                         <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>DEXTOOLS</p>
                     </div>
                 </div>
