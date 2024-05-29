@@ -207,14 +207,14 @@ ul {
 }
 
 .top-text-ellips2 {
-  top: 68%;
+  top: 64%;
   transform: rotate(340deg);
-  left: 33%;
+  left: 34%;
 }
 
 .bottom-ellips-pos {
   left: 18%;
-  bottom: 10%;
+  bottom: 14%;
 }
 
 .glasses-pos {
@@ -457,7 +457,6 @@ ul {
   }
 
   .w_100 {
-    width: unset;
     max-width: unset;
   }
 
