@@ -6,6 +6,10 @@ import About from './components/About';
 import Tokenomics from './components/Tokenomics'
 import Utility from './components/Utility';
 import Ecosystem from './components/Ecosystem';
+import Roadmap from './components/Roadmap';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import News from './components/News';
 
 function App() {
   return (
@@ -15,6 +19,8 @@ function App() {
       <Tokenomics />
       <Utility />
       <Ecosystem />
+      <Roadmap />
+      <News />
     </>
   );
 }

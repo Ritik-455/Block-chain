@@ -3,12 +3,12 @@
 :root {
   --fs-sm: 14px;
   --fs-md: 14.83px;
-  --fs-lg: 14px;
+  --fs-lg: 13px;
   --fs-xl: 15px;
   --fs-2xl: 24px;
   --fs-3xl: 32px;
   --fs-4xl: 32.2px;
-  --fs-5xl: 36px;
+  --fs-5xl: 14px;
   --fs-6xl: 32.44px;
   --fs-7xl: 36px;
   --fs-8xl: 41px;
@@ -147,6 +147,18 @@
   line-height: 95.67px;
 }
 
+.lh-sm-43 {
+  line-height: 23.57px;
+}
+
+.lh-sm-77 {
+  line-height: 36.45px;
+}
+
+.lh-md-30 {
+  line-height: 19px;
+}
+
 @media (min-width:576px) {
   :root {
     --fs-sm: 14px;
@@ -156,10 +168,10 @@
     --fs-2xl: 24px;
     --fs-3xl: 32px;
     --fs-4xl: 32.2px;
-    --fs-5xl: 36px;
+    --fs-5xl: 21px;
     --fs-6xl: 40.44px;
     --fs-7xl: 42px;
-    --fs-8xl: 54px;
+    --fs-8xl: 48px;
     --fs-9xl: 108.22px;
   }
 
@@ -174,7 +186,7 @@
     --fs-2xl: 24px;
     --fs-3xl: 32px;
     --fs-4xl: 32.2px;
-    --fs-5xl: 36px;
+    --fs-5xl: 28px;
     --fs-6xl: 40.44px;
     --fs-7xl: 48px;
     --fs-8xl: 64px;
@@ -183,6 +195,18 @@
 
   .lh-130 {
     line-height: 130.97px;
+  }
+
+  .lh-sm-43 {
+    line-height: 43.57px;
+  }
+
+  .lh-sm-77 {
+    line-height: 77.45px;
+  }
+
+  .lh-md-30 {
+    line-height: 25px;
   }
 }
 
@@ -201,7 +225,9 @@
     --fs-8xl: 52px;
     --fs-9xl: 108.22px;
   }
-
+  .lh-md-30 {
+    line-height: 30px;
+  }
 }
 
 @media (min-width:1024px) {

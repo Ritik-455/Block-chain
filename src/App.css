@@ -55,10 +55,6 @@ ul {
   padding-bottom: 35px;
 }
 
-.mt-20 {
-  margin-top: 20px;
-}
-
 .mt-12 {
   margin-top: 12px;
 }
@@ -68,9 +64,45 @@ ul {
   padding-bottom: 65px;
 }
 
+.mt-33 {
+  margin-top: 33px;
+}
+
+.py-eco {
+  padding-bottom: 68px;
+}
+
+.mt-13 {
+  margin-top: 13px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.py-road {
+  padding: 43px 0px;
+}
+.py-news{
+  padding-top: 125px;
+  padding-bottom: 96px;
+}
+
 /*******************padding-margin***************************************/
 .gap-21 {
   gap: 12px;
+}
+
+.gap-18 {
+  gap: 18.94px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.max-w-565 {
+  max-width: 565px;
 }
 
 .cmn-btn {
@@ -94,10 +126,6 @@ ul {
   transition: 0.3s linear;
 }
 
-.head-btn:hover {
-  background: var(--color-yellow);
-  border: 1px solid transparent;
-}
 
 .ylw-layer {
   background-color: var(--color-yellow);
@@ -131,15 +159,18 @@ ul {
   left: 5%;
   transform: rotate(340deg);
 }
-.text-pos2{
+
+.text-pos2 {
   top: 12%;
   left: 47%;
-  transform: rotate(340deg); 
+  transform: rotate(340deg);
 }
-.text-pos3{
-  bottom: 22%;
-  left: 41%;
+
+.text-pos3 {
+  bottom: 35%;
+  left: 37%;
 }
+
 .top-text-ellips2 {
   top: 68%;
   transform: rotate(340deg);
@@ -207,6 +238,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .bg-ecosystem {
   background-image: url(./assets/images/PNG/ecosystem_bg_img.webp);
   background-position: center;
@@ -220,26 +252,54 @@ ul {
   background-color: var(--color-yellow);
   border: none;
   transition: 0.3s linear;
+  border: 1px solid transparent;
 }
 
 .ylw-btn:hover {
   background-color: black;
   color: var(--color-yellow);
+  border: 1px solid var(--color-yellow);
 }
-.notes-pos{
+
+.notes-pos {
   top: 0%;
   right: 7%;
 }
-.tilted-yellow-layer{
+
+.tilted-yellow-layer {
   background-color: var(--color-yellow);
-  min-height: 136px;
   transform: rotate(-2.02deg);
 }
+
+.chart-pos {
+  top: 5%;
+  left: 4%;
+}
+
+.glasses-pos2 {
+  right: 8%;
+  bottom: 3%;
+}
+
+.max-w-441 {
+  max-width: 441px;
+}
+.news-box{
+  border: 1px solid #000000;
+}
+
 @media (min-width:576px) {}
 
 @media (min-width:768px) {
   .gap-21 {
     gap: 21px;
+  }
+
+  .mt-md-13 {
+    margin-top: 13px;
+  }
+  .py-road {
+    padding: 65px 0px;
   }
 }
 
@@ -277,6 +337,23 @@ ul {
   .mt-lg-21 {
     margin-top: 21px !important;
   }
+
+  .mt-lg-20 {
+    margin-top: 20px;
+  }
+
+  .tilted-yellow-layer {
+    min-height: 136px;
+  }
+
+  .py-eco {
+    padding-top: 98px;
+    padding-bottom: 68px;
+  }
+
+  .mt-lg-13 {
+    margin-top: 13px;
+  }
 }
 
 @media (min-width:1200px) {
@@ -304,6 +381,11 @@ ul {
     max-width: unset;
   }
 
+  .py-eco {
+    padding-top: 177px;
+    padding-bottom: 68px;
+  }
+
   .py-about {
     padding-top: 218px;
     padding-bottom: 130px;
@@ -312,6 +394,10 @@ ul {
   .py-token {
     padding-top: 84px;
     padding-bottom: 51px;
+  }
+
+  .py-road {
+    padding: 143px 0px;
   }
 }
 

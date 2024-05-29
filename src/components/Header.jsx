@@ -15,7 +15,7 @@ function Header() {
                     <h2 className=' ff-inter fw-900 text-108 lh-130 text-white mb-0'>G<span className=' color-yellow'>G</span></h2>
                     <p className=' ff-inter fw-semibold text-20 lh-24 mb-0 text-white'>Join The <span className=' color-yellow'>Worldwide Blockchain</span> Protest Against Corrupt <span className=' d-lg-block'> Government Bodies</span></p>
                     <div className=" d-flex gap-4 mt-62">
-                        <Comnbtn text="Buy $GrayGensler" />
+                        <button className=' ylw-btn ff-inter fw-semibold text-16 lh-1936'>Buy $GrayGensler</button>
                         <Comnbtn text="How To Buy?" />
                     </div>
                     <button className=' ff-inter fw-normal text-20 lh-30 text-white head-btn d-flex gap-4 align-items-center mt-36'>dwqjddj324dnewdne3dewrrets <span><svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
