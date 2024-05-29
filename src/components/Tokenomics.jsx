@@ -12,7 +12,7 @@ function Tokenomics() {
                 <div className="container py-token">
                     <div className="row">
                         <div className="col-12 col-lg-5">
-                            <div className=" d-md-flex flex-column align-items-center">
+                            <div className=" d-md-flex flex-column align-items-center align-items-lg-start">
                                 <CommonHeading color=" text-white" text="TOKENOMICS" />
                                 <Commonpara text="Let's Hug GG ($LHGG) operates on a deflationary tokenomics model designed to incentivize selling Bitcoin.  With a fixed total supply and a burn mechanism in place, each transaction contributes to reducing the  circulating supply of $LHGG, thereby increasing its scarcity and value over time. Additionally, a portion of  transaction fees is allocated to liquidity pools, ensuring stability and liquidity for $LHGG holders." max_w_para=" max-w-453" color=" text-white" spacing=" mt-3" />
                                 <div className="token-box w-100 mt-20">

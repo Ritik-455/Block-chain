@@ -10,6 +10,7 @@ import Roadmap from './components/Roadmap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import News from './components/News';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Ecosystem />
       <Roadmap />
       <News />
+      <Footer />
     </>
   );
 }

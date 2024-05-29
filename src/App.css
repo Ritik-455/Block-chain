@@ -72,6 +72,10 @@ ul {
   padding-bottom: 68px;
 }
 
+.mt-17 {
+  margin-top: 17px;
+}
+
 .mt-13 {
   margin-top: 13px;
 }
@@ -83,14 +87,40 @@ ul {
 .py-road {
   padding: 43px 0px;
 }
-.py-news{
-  padding-top: 125px;
-  padding-bottom: 96px;
+
+.py-news {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.pr-22 {
+  padding-right: 22px;
+}
+
+.mt-card {
+  margin-top: 22px;
+}
+
+.py-footer {
+  padding-top: 39px;
+  padding-bottom: 53px;
 }
 
 /*******************padding-margin***************************************/
 .gap-21 {
   gap: 12px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-14 {
+  gap: 14px;
+}
+
+.gap-66 {
+  gap: 66px;
 }
 
 .gap-18 {
@@ -126,6 +156,11 @@ ul {
   transition: 0.3s linear;
 }
 
+.line-footer {
+  background-color: var(--color-yellow);
+  height: 173px;
+  width: 1px;
+}
 
 .ylw-layer {
   background-color: var(--color-yellow);
@@ -284,8 +319,30 @@ ul {
 .max-w-441 {
   max-width: 441px;
 }
-.news-box{
+
+.news-box {
   border: 1px solid #000000;
+  padding: 14.28px 8px 11.81px 9.11px;
+  max-width: 367px;
+  background-color: white;
+  width: 100%;
+}
+
+.bg-news {
+  background-image: url(./assets/images/PNG/new-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lap-pos {
+  right: 6%;
+  top: 2%;
+}
+
+.mobile-pos {
+  left: 3%;
+  top: 6%;
 }
 
 @media (min-width:576px) {}
@@ -298,8 +355,18 @@ ul {
   .mt-md-13 {
     margin-top: 13px;
   }
+
   .py-road {
     padding: 65px 0px;
+  }
+
+  .news-box {
+    padding: 26.28px 8px 19.81px 22.11px;
+  }
+
+  .py-footer {
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
 }
 
@@ -319,6 +386,10 @@ ul {
 
   .mt-lg-26 {
     margin-top: 26px;
+  }
+
+  .pt-68 {
+    padding-top: 68px;
   }
 
   .py-about {
@@ -354,6 +425,10 @@ ul {
   .mt-lg-13 {
     margin-top: 13px;
   }
+
+  .py-news {
+    padding-bottom: 56px;
+  }
 }
 
 @media (min-width:1200px) {
@@ -364,6 +439,11 @@ ul {
 
   .mt-62 {
     margin-top: 62px;
+  }
+
+  .py-news {
+    padding-top: 125px;
+    padding-bottom: 96px;
   }
 
   .mt-36 {
@@ -398,6 +478,17 @@ ul {
 
   .py-road {
     padding: 143px 0px;
+  }
+
+  .py-footer {
+    padding-top: 153px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width:1400px) {
+  .mt-card {
+    margin-top: 97px;
   }
 }
 

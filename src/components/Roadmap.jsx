@@ -54,7 +54,7 @@ function Roadmap() {
     return (
         <>
             <div className=""><img src={toplayer} alt="toplayer" className=' w-100' /></div>
-            <div className="bg-black my-neg-3">
+            <div className="bg-black my-neg-3 pt-68">
                 <CommonHeading text="ROADMAP" color="text-white text-center" />
                 <p className=' ff-inter fw-normal text-16 lh-md-30 text-white opacity-75 text-center mt-lg-20 mb-0'>Our roadmap isn't just a journey; it's a comedic adventure  through the cryptoverse, filled with twists, turns, and plenty <span className=' d-lg-block'> of  laughs along the way. Here's a glimpse into what the future holds  for Let's Hug GG ($LHGG)</span></p>
                 <Slider {...settings} className=' py-road'>
