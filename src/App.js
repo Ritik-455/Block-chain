@@ -11,8 +11,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import News from './components/News';
 import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({ once: true, duration: 1000, });
+  }, []);
+  
   return (
     <>
       <Header />

@@ -24,21 +24,21 @@ function Header() {
                     </svg>
                     </span></button>
                 </div>
-                <div className="position-absolute bottom-0 end-0">
+                <div className="position-absolute bottom-0 end-0 hero-width">
                     <img src={hero} alt="hero" className='img-op' />
                 </div>
             </div>
             <div className="ylw-layer">
                 <div className="container d-flex justify-content-sm-between flex-wrap">
-                    <div className="d-flex gap-21 align-items-center">
+                    <div className="d-flex gap-21 align-items-center" data-aos="zoom-in">
                         <img src={x} alt="x" className=' cursor-pointer' />
                         <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>twitter</p>
                     </div>
-                    <div className="d-flex gap-21 align-items-center">
+                    <div className="d-flex gap-21 align-items-center" data-aos="zoom-in">
                         <img src={telegram} alt="telegram" className=' cursor-pointer' />
                         <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>Telegram</p>
                     </div>
-                    <div className="d-flex gap-21 align-items-center">
+                    <div className="d-flex gap-21 align-items-center" data-aos="zoom-in">
                         <img src={dext} alt="x" className=' cursor-pointer' />
                         <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>DEXTOOLS</p>
                     </div>

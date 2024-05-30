@@ -508,6 +508,24 @@ ul {
   }
 }
 
+@media (min-width:1540px) {
+  .hero-width {
+    width: 50%;
+  }
+
+  .top-text-ellips2 {
+    top: 71%;
+    transform: rotate(340deg);
+    left: 39%;
+  }
+
+  .text-pos1 {
+    top: 12%;
+    left: 16%;
+    transform: rotate(340deg);
+  }
+}
+
 @media (max-width:992px) {
   .mobile-view {
     background: transparent;

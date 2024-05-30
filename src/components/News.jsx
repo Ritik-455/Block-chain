@@ -16,7 +16,7 @@ function News() {
                     <div className="d-flex gap-20 justify-content-center mt-card flex-wrap">
                         {card.map((data, index) => (
                             <>
-                                <div className="news-box">
+                                <div className="news-box" data-aos="flip-left">
                                     <div className="d-flex gap-14 align-items-center">
                                         <img src={data.img} alt="img" />
                                         <div className="">
@@ -55,22 +55,22 @@ function News() {
                 <div className="position-absolute mobile-pos d-none d-xl-block">
                     <img src={mobile} alt="mobile" />
                 </div>
-                <div className="ylw-layer2">
-                    <div className="container d-flex justify-content-sm-between flex-wrap">
-                        <div className="d-flex gap-21 align-items-center">
-                            <img src={x} alt="x" className=' cursor-pointer' />
-                            <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>twitter</p>
-                        </div>
-                        <div className="d-flex gap-21 align-items-center">
-                            <img src={telegram} alt="telegram"  className=' cursor-pointer'/>
-                            <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>Telegram</p>
-                        </div>
-                        <div className="d-flex gap-21 align-items-center">
-                            <img src={dext} alt="x" className=' cursor-pointer' />
-                            <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>DEXTOOLS</p>
-                        </div>
-                    </div>``
+                <div className="ylw-layer">
+                <div className="container d-flex justify-content-sm-between flex-wrap">
+                    <div className="d-flex gap-21 align-items-center" data-aos="zoom-in">
+                        <img src={x} alt="x" className=' cursor-pointer' />
+                        <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>twitter</p>
+                    </div>
+                    <div className="d-flex gap-21 align-items-center" data-aos="zoom-in">
+                        <img src={telegram} alt="telegram" className=' cursor-pointer' />
+                        <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>Telegram</p>
+                    </div>
+                    <div className="d-flex gap-21 align-items-center" data-aos="zoom-in">
+                        <img src={dext} alt="x" className=' cursor-pointer' />
+                        <p className=' ff-inter fw-semibold text-48 lh-589 text-white mb-0'>DEXTOOLS</p>
+                    </div>
                 </div>
+            </div>
             </div>
         </>
     )
